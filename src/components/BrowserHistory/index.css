@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.browserHistory-bg-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.browserHistory-header {
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+}
+
+.search-history-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-icon-logo {
+  padding: 6px 15px;
+  background-color: #2850a7;
+  border: 1px solid #f8fafc;
+  border-radius: 2px;
+}
+
+.search-history-input {
+  padding: 10px;
+  color: #f8fafc;
+  background-color: #2850a7;
+  border: 1px solid #ececec;
+  border-radius: 2px;
+  width: 40vw;
+  outline: none;
+}
+
+.browserHistory-footer {
+  margin: 45px 60px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.history-items-container {
+  background-color: #fff;
+  box-shadow: 3px 3px 15px gray;
+  padding: 15px 36px;
+}
+
+.empty-history-msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.empty-history-msg {
+  text-align: center;
+  color: #475569;
+}
+
+@media screen and (max-width: 575px) {
+  .history-items-container {
+    padding: 12px 12px;
+  }
+
+  .browserHistory-footer {
+    margin: 30px;
+  }
+}
