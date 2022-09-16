@@ -1,6 +1,4 @@
-In this project, let's build a **Browser History** app by applying the concepts we have learned till now.
-
-### Refer to the image below:
+# Browser History
 
 <br/>
 <div style="text-align: center;">
@@ -28,45 +26,8 @@ In this project, let's build a **Browser History** app by applying the concepts 
 - Start up the app using `npm start`
 </details>
 
-### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
 
-The app must have the following functionalities
-
-- Initially, the list of given history items should be displayed with a delete button for each history item.
-- When a non-empty value is provided in the search input, then display the history items which includes the search input irrespective of case
-- When the delete button of a history item is clicked, then the respective history item should be deleted from the list of history items
-- When a non-empty value is provided in the search input element, and no history item includes the value given in the search input, then [Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png) should be displayed
-- When all the history items are deleted, then [Empty History View](https://assets.ccbp.in/frontend/content/react-js/browser-history-empty-view-lg-output.png) should be displayed
-
-- The App is provided with `historyList`. It consists of a list of historyItem objects with the following properties in each historyItem object
-
-  |     Key      | Data Type |
-  | :----------: | :-------: |
-  |      id      |  Number   |
-  | timeAccessed |  String   |
-  |   logoUrl    |  String   |
-  |    title     |  String   |
-  |  domainUrl   |  String   |
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The `logoUrl` in the each history item have alt as **domain logo**
-- The delete button in the history item should have the `testid` as **delete**
-
-</details>
 
 ### Resources
 
@@ -103,9 +64,3 @@ The app must have the following functionalities
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
